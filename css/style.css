@@ -5,13 +5,17 @@ body, p, ul {
 }
 
 h1 {
+    font-size: 5.62rem;
     margin: 0;
     font-family: 'Sacramento', cursive;
+    line-height: 2;
 }
 
 h2,h5 {
+    font-size: 2.5rem;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 a :hover {

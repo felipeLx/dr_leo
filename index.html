@@ -9,12 +9,12 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
     <link href="https://fonts.googleapis.com/css?family=Anton|Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
     <link rel="icon" href="./image/favicon.ico">
-    <script src='main.js'></script>
+    <script type="text/javascript" src='./index.js'></script>
 </head>
 <body>
     <nav class="nav">
         <div class="menu">
-             <h5>Para Leonardo Merçon Vieira Cardoso</h5>   
+             <h3>Para Leonardo Merçon Vieira Cardoso</h3>   
         </div>
     </nav>
     
@@ -83,12 +83,15 @@
             <br>
             <div class="contact-me">
               <h2>Um coração para você!</h2>
-              <button id="clickme" style="border: none;">
+              <div>
+                <button type="button" onclick="onClick()">
               <input id="toggle-heart" type="checkbox" />
                 <label for="toggle-heart">❤</label>
                 <br />
-                0</button>
-                
+                <p id="clickme">0</p>
+              </button>
+              </div>
+              <!-- <button id="clickme">Click me: 0</button> -->
             </div>
           </div>
         </div>
